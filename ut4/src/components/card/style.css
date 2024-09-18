@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 80%;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.card-assignedTo,
+.card-startDate,
+.card-endDate {
+    font-size: 0.9em;
+    margin-bottom: 4px;
+    color: #999;
+}
