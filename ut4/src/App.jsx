@@ -10,7 +10,7 @@ const App = () => {
   return (
       <div>
           <MultiInputList list={list} setList={setList} />
-          <TaskList list={list} />
+          <TaskList list={list} setList={setList} />
       </div>
   );
 };
