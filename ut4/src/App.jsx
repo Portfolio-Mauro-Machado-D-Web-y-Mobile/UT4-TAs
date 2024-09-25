@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import ButtonCounts from './components/buttonCounts/index.jsx'
+import ButtonDisappearText from './components/buttonDisappearText/index.jsx'
 import './App.css'
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
 
   return (
       <div>
-          <ButtonCounts value={value} setter={setInputValue} />
+          <ButtonDisappearText text='texto' />
       </div>
   );
 };
