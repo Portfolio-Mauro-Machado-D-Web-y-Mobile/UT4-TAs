@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import ButtonDisappearText from './components/buttonDisappearText/index.jsx'
+import MultiInputList from './components/multiInputList/index.jsx'
+import TaskList from './components/taskList/index.jsx'
 import './App.css'
 
 const App = () => {
-
-  const [value, setInputValue] = useState(0);
-
+  const [list, setList] = useState([]);
   return (
       <div>
-          <ButtonDisappearText text='texto' />
+          <MultiInputList list={list} setList={setList} />
+          <TaskList list={list} />
       </div>
   );
 };
