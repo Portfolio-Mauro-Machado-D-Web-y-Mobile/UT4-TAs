@@ -15,7 +15,6 @@ const App = () => {
   return (
       <div>
           <ButtonCounts value={value} setter={setInputValue} />
-
       </div>
   );
 };
