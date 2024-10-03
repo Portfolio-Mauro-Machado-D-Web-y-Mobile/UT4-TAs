@@ -1,0 +1,17 @@
+.email-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.email-list li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: black;
+}
+
+.email-list li:hover {
+    background-color: #f1f1f1;
+}

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './style.css'
-const EmailPresenter = () => {
+const Timer = () => {
     const [time, setTime] = useState(0);
 
     useEffect(() => {
-        const interval = setINterval (() => {
+        const interval = setInterval (() => {
             setTime(time + 1);
         }, 1000);
 
@@ -21,4 +21,4 @@ const EmailPresenter = () => {
     );
 };
 
-export default EmailPresenter;
+export default Timer;
