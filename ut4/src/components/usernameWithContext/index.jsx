@@ -5,7 +5,7 @@ import { UsernameContext } from '../../contexts/UsernameContext';
 const UsernameWithContext = () => {
   const { username } = useContext(UsernameContext);
 
-  return <p className='usernameWithContext-paragraph'>{username}</p>;
+  return (<div className= 'usernameWithContext'><p className='usernameWithContext-paragraph'>{username}</p></div>);
 };
 
 export default UsernameWithContext;
