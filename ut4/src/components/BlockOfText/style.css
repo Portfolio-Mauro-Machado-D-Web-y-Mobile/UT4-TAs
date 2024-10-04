@@ -1,0 +1,17 @@
+.blockOfText {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.blockOfText.light {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.blockOfText.dark {
+    background-color: #333;
+    color: #f9f9f9;
+}
+

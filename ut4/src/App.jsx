@@ -1,18 +1,18 @@
 
 import React from 'react';
 import './App.css';
-import UsernameWithContext from './components/UsernameWithContext';
-import { UsernameProvider } from './contexts/UsernameContext';
-import InputUsernameContext from './components/InputUsernameContext';
+import { ThemeProvider } from './contexts/ThemeContext';
+import ChangeThemeButton from './components/ChangeThemeButton';
+import BlockOfText from './components/BlockOfText';
 
 function App() {
   return (
-    <UsernameProvider>
+    <ThemeProvider>
       <div className='App'>
-        <InputUsernameContext/>
-        <UsernameWithContext/>
+        <ChangeThemeButton/>
+        <BlockOfText text='texto'/>
       </div>
-    </UsernameProvider>
+    </ThemeProvider>
   );
 }
 
