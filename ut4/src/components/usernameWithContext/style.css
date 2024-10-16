@@ -1,0 +1,13 @@
+.usernameWithContext {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .usernameWithContext-paragraph {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
